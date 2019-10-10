@@ -14,7 +14,7 @@
 //used for handshaking
 String inputString = "";         // a String to hold incoming data
 bool handshakeComplete = false;  // whether the string is complete
-
+bool realtime = false;
 #define BUFFER_SIZE 2048
 uint16_t buffer[BUFFER_SIZE];
 uint16_t buffer_head = 0;

@@ -9,11 +9,11 @@ use_batch = False
 COM = '/dev/ttyACM1'# (Linux)
 BAUD = 115200
 ser = serial.Serial(COM, BAUD, timeout = 5)
-ser.write(("BATCH\n" if use_batch else "REALTIME\N").encode('ascii'))
+ser.write(("BATCH\n" if use_batch else "REALTIME\n").encode('ascii'))
 preface = ser.read_until(b'ACKN')
 print("got preface: ", preface)
 
-if !use_batch:
+if not use_batch:
     n_points = 100;
     x = np.linspace(0, n_points, n_points)
     y = np.zeros(n_points)
