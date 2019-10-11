@@ -13,7 +13,7 @@ https://www.thorlabs.com/thorproduct.cfm?partnumber=KM100V
 Mirror mount:
 https://www.thorlabs.com/thorproduct.cfm?partnumber=KM100T
 
-Beamsplitter mount:
+Beam splitter mount:
 https://www.thorlabs.com/thorproduct.cfm?partnumber=CM1-DCH
 
 Lens mount:
