@@ -59,7 +59,6 @@ else:
         x = np.linspace(0, n_points, n_points)
         ax.set_ylim(min(y)*0.98,max(y)*1.02)
         line1.set_xdata(x)
-        # plot stuff
         line1.set_ydata(y)
         fig.canvas.draw()
         fig.canvas.flush_events()
