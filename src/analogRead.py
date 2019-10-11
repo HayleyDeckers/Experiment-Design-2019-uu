@@ -3,12 +3,16 @@ from time import sleep
 import sys
 import matplotlib.pyplot as plt
 import numpy as np
+from struct import unpack
+
 
 #TODO: make this a command line option
-use_batch = False
+#BUG: plotting is too slow for real-time mode.
+use_batch = True
 COM = '/dev/ttyACM1'# (Linux)
 BAUD = 115200
 ser = serial.Serial(COM, BAUD, timeout = 5)
+sleep(3)
 ser.write(("BATCH\n" if use_batch else "REALTIME\n").encode('ascii'))
 preface = ser.read_until(b'ACKN')
 print("got preface: ", preface)
@@ -39,7 +43,25 @@ if not use_batch:
         else:
             print("SAW LENGTH", len(raw))
 else:
+    plt.ion()
+    fig = plt.figure()
+    ax = fig.add_subplot(111)
+    ax.set_ylim(0,1024)
+    x = np.linspace(0, 2048,2048)
+    y = np.zeros(2048)
+    line1, = ax.plot(x, y, 'r-') # Returns a tuple of line objects, thus the comma
     f = open('out.bin', 'wb')
     while True:
-        f.write(ser.read(4096))
+        data = ser.read(4096)
+        y = unpack('H'*(len(data)//2),data)
+        n_points = len(y)
+        print(n_points)
+        x = np.linspace(0, n_points, n_points)
+        ax.set_ylim(min(y)*0.98,max(y)*1.02)
+        line1.set_xdata(x)
+        # plot stuff
+        line1.set_ydata(y)
+        fig.canvas.draw()
+        fig.canvas.flush_events()
+        f.write(data)
     f.close()
