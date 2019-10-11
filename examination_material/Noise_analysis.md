@@ -2,13 +2,12 @@ The main source of noise at the moment seems to be alignment issues and vibratio
 
 The experiment picks up two clearly identifiable kinds of vibrations
  1. vibrations from the ground, caused by people walking past.
- 2. vibrations from the air, when people are speaking it occasionally picks up noise. This is especially noticable with the brass sample.
-These problems are particularly noticable when the sample holder is attached.
+ 2. vibrations from the air, when people are speaking it occasionally picks up noise. These problems are particularly noticable when the sample holder is attached and the brass sample is used.
 
 
 We can try to further reduce these errors by
- 1. adding shock absorbing feet to the experiment, hopefully slightly reducing the ground vibrations
- 2. adding some cotton cotton wadding to the inside of the sample clamp.
+1. adding shock absorbing feet to the experiment, hopefully slightly reducing the ground vibrations
+2. adding some cotton cotton wadding to the inside of the sample clamp.
 
  Furthermore, me noticed that when heating up a sample with a lighter, the heat makes the PLA holder more ductile and it will drop out of alignment as a result. We plan to work around this by freezing our samples instead of heating them.
 
