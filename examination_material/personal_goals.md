@@ -17,9 +17,13 @@ do literature research. As I already have quite a lot of experience with program
 
 ## Mid-course review of goals (fill this mid-course)
 Note what skills you have learned so far, whether you are hitting your own targets and if you need to modify them. State if the course structure allows you to attain your goals.
-* t.b.d.
-* t.b.d.
-* t.b.d.
+* Learned a lot about engineering considerations, esp. in regards to working with a 3d-printer such as the impact of nozzle-size, orientation of the to-be-printed object w.r.t. the print bed
+* Basics of constructing and debugging an optical systems
+* (re-)learned Arduino and electronical interfacing 
+* learning how to document experiments
+
+I haven't learned :
+ * literature review
 
 ## Final review of goals (fill at the end of the course)
 Review the course from your personal point of view and whether it met your expectations. State how you could have done better and suggest changes that can make the course better.
