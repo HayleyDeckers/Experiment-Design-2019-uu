@@ -14,6 +14,7 @@
 //used for handshaking
 String inputString = "";         // a String to hold incoming data
 bool handshakeComplete = false;  // whether the string is complete
+bool realtime = false;
 
 #define BUFFER_SIZE 2048
 uint16_t buffer[BUFFER_SIZE];
@@ -24,7 +25,7 @@ void setup() {
   //reserve some space for our string.
   inputString.reserve(200);
   //increase the analogread resolution because we use a Due
-  analogReadResolution(12);
+  //analogReadResolution(12);
   // initialize serial communication at 9600 bits per second:
   Serial.begin(115200);
   //Wait on the serial interface to be connected
@@ -40,10 +41,15 @@ void loop() {
     // read the input on analog pin 0:
     uint16_t sensorValue = analogRead(A0);
     //put the result into a buffer
-    buffer[buffer_head++] = sensorValue;
-    if(buffer_head >= BUFFER_SIZE){
-      Serial.write((const char*)buffer, sizeof(buffer[0])*BUFFER_SIZE);
-      buffer_head = 0;
+    if(!realtime){
+      buffer[buffer_head++] = (output/4)*3 +sensorValue/4;
+      if(buffer_head >= BUFFER_SIZE){
+        Serial.write((const char*)buffer, sizeof(buffer[0])*BUFFER_SIZE);
+        buffer_head = 0;
+      }
+    }else{
+      uint16_t write_val[] = {sensorValue, 0xffff};
+      Serial.write((const char*)&write_val,4);
     }
     delay(1); // delay in between reads for stability.
     //n.b. for an iron sample, of around 10cm, a 10ms delay between
@@ -65,9 +71,13 @@ void loop() {
     //Serial.println(inputString);
     //TODO: use a commands enum.
     if (inChar == '\n') {
-      if(inputString.equals("MITE\n")){
+      if(inputString.equals("REALTIME\n")){
         Serial.write("ACKN");
+        realtime = true;
         handshakeComplete = true;
+      }else if(inputString.equals("BATCH\n")){
+        Serial.write("ACKN");
+        realtime = false;
       }else{
         inputString = "";
       }
