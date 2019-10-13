@@ -1,2 +1,7 @@
 .ccls-cache
 src/*.bin
+examination_material/*.aux
+examination_material/*.fdb_latexmk
+examination_material/*.fls
+examination_material/*.log
+examination_material/*.gz
