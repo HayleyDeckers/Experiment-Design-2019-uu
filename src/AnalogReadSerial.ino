@@ -78,6 +78,7 @@ void loop() {
       }else if(inputString.equals("BATCH\n")){
         Serial.write("ACKN");
         realtime = false;
+        handshakeComplete = true;
       }else{
         inputString = "";
       }
