@@ -4,7 +4,7 @@ import sys
 import matplotlib.pyplot as plt
 import numpy as np
 from struct import unpack
-
+from struct import iter_unpack
 
 #TODO: make this a command line option
 #BUG: plotting is too slow for real-time mode.
@@ -52,15 +52,19 @@ else:
     line1, = ax.plot(x, y, 'r-') # Returns a tuple of line objects, thus the comma
     f = open('out.bin', 'wb')
     while True:
+        #TODO: remove hardcoded size and format
+        #TODO: deal with not reading exactly 4096 bytes, won't corrupt data as iter_unpack will fail in that case but needs a nice solution.
+        # easy solution would be to just round down the len. Better solution would be to packet the data.
         data = ser.read(4096)
-        y = unpack('H'*(len(data)//2),data)
-        n_points = len(y)
-        print(n_points)
-        x = np.linspace(0, n_points, n_points)
-        ax.set_ylim(min(y)*0.98,max(y)*1.02)
-        line1.set_xdata(x)
-        line1.set_ydata(y)
-        fig.canvas.draw()
-        fig.canvas.flush_events()
+        print(len(data))
+        y = iter_unpack("HHI",data)
+        for measurement in y:
+            print(measurement)
+        # x = np.linspace(0, n_points, n_points)
+        # ax.set_ylim(min(y)*0.98,max(y)*1.02)
+        # line1.set_xdata(x)
+        # line1.set_ydata(y)
+        # fig.canvas.draw()
+        # fig.canvas.flush_events()
         f.write(data)
     f.close()
