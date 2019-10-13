@@ -1,0 +1,505 @@
+This is LuaTeX, Version 1.10.0 (MiKTeX 2.9.7140 64-bit)  (format=lualatex 2019.10.13)  13 OCT 2019 17:30
+ restricted system commands enabled.
+ file:line:error style messages enabled.
+**ProjectContext.tex
+(./ProjectContext.tex
+LaTeX2e <2018-12-01>
+Lua module: luaotfload-main 2019-08-11 2.991 luaotfload entry point
+Lua module: luaotfload-init 2019-08-11 2.991 luaotfload submodule / initializati
+on
+Lua module: lualibs 2019-08-11 2.67 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2019-08-11 2.67 ConTeXt Lua libraries -- extended c
+ollection.
+Lua module: luaotfload-log 2019-08-11 2.991 luaotfload submodule / logging
+Lua module: luaotfload-parsers 2019-08-11 2.991 luaotfload submodule / filelist
+Lua module: luaotfload-configuration 2019-08-11 2.991 luaotfload submodule / con
+fig file reader
+luaotfload | conf : Root cache directory is C:/Users/hugom/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2019-08-11.lua” from kpse
+-resolved path “C:/Program Files/MiKTeX 2.9/tex/luatex/luaotfload/fontloader-2
+019-08-11.lua”.
+Lua-only attribute luaotfload@state = 2
+Lua-only attribute luaotfload@noligature = 3
+Lua-only attribute luaotfload@syllabe = 4
+luaotfload | init : Context OpenType loader version “3.109”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Lua module: luaotfload-loaders 2019-08-11 2.991 luaotfload submodule / callback 
+handling
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua module: luaotfload-database 2019-08-11 2.991 luaotfload submodule / database
+Lua module: luaotfload-unicode 2019-08-11 2.991 luaotfload submodule / Unicode h
+elpers
+Lua module: luaotfload-colors 2019-08-11 2.991 luaotfload submodule / color
+Lua-only attribute luaotfload_color_attribute = 5
+Lua module: luaotfload-resolvers 2019-08-11 2.991 luaotfload submodule / resolve
+rs
+luaotfload | conf : Root cache directory is C:/Users/hugom/AppData/Local/MiKTeX/
+2.9/luatex-cache/generic/names.
+Lua module: luaotfload-features 2019-08-11 2.991 luaotfload submodule / features
+Lua module: luaotfload-letterspace 2019-08-11 2.991 luaotfload submodule / color
+Lua module: luaotfload-embolden 2019-08-11 2.991 luaotfload submodule / color
+Lua module: luaotfload-notdef 2019-08-11 2.991 luaotfload submodule / color
+Lua module: luaotfload-auxiliary 2019-08-11 2.991 luaotfload submodule / auxilia
+ry functions
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 3.527 seconds
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
+Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo"
+File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+luaotfload | db : Font names database loaded from C:/Users/hugom/AppData/Local/M
+iKTeX/2.9/luatex-cache/generic/names/luaotfload-names.luc)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/base/fontenc.sty"
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/base/t1enc.def"
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 105.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/lm/t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.sty"
+Package: babel 2019/07/19 3.33 The Babel package
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/switch.def"
+File: switch.def 2019/07/19 3.33 Babel switching mechanism
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"
+\l@afrikaans=\language2
+Package babel Info: Non-standard hyphenation setup on input line 114.
+\l@ancientgreek=\language3
+\l@arabic=\language4
+\l@armenian=\language5
+\l@assamese=\language6
+\l@basque=\language7
+\l@belarusian=\language8
+\l@bengali=\language9
+\l@bokmal=\language10
+\l@bulgarian=\language11
+\l@catalan=\language12
+\l@churchslavonic=\language13
+\l@classiclatin=\language14
+\l@coptic=\language15
+\l@croatian=\language16
+\l@czech=\language17
+\l@danish=\language18
+\l@dutch=\language19
+\l@esperanto=\language20
+\l@estonian=\language21
+\l@ethiopic=\language22
+\l@farsi=\language23
+\l@finnish=\language24
+\l@french=\language25
+\l@friulan=\language26
+\l@galician=\language27
+\l@georgian=\language28
+\l@german=\language29
+\l@german-x-2019-04-04=\language30
+\l@greek=\language31
+\l@gujarati=\language32
+\l@hindi=\language33
+\l@hungarian=\language34
+\l@icelandic=\language35
+\l@indonesian=\language36
+\l@interlingua=\language37
+\l@irish=\language38
+\l@italian=\language39
+\l@kannada=\language40
+\l@kurmanji=\language41
+\l@latin=\language42
+\l@latvian=\language43
+\l@lithuanian=\language44
+\l@liturgicallatin=\language45
+\l@malayalam=\language46
+\l@marathi=\language47
+\l@mongolian=\language48
+\l@mongolianlmc=\language49
+\l@monogreek=\language50
+\l@ngerman=\language51
+\l@ngerman-x-2019-04-04=\language52
+\l@nynorsk=\language53
+\l@occitan=\language54
+\l@oriya=\language55
+\l@pali=\language56
+\l@panjabi=\language57
+\l@piedmontese=\language58
+\l@polish=\language59
+\l@portuguese=\language60
+\l@romanian=\language61
+\l@romansh=\language62
+\l@russian=\language63
+\l@sanskrit=\language64
+\l@serbian=\language65
+\l@serbianc=\language66
+\l@slovak=\language67
+\l@slovenian=\language68
+\l@spanish=\language69
+\l@swedish=\language70
+\l@swissgerman=\language71
+\l@tamil=\language72
+\l@telugu=\language73
+\l@thai=\language74
+\l@turkish=\language75
+\l@turkmen=\language76
+\l@ukenglish=\language77
+\l@ukrainian=\language78
+\l@uppersorbian=\language79
+\l@usenglishmax=\language80
+\l@welsh=\language81
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/arabi/bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
+babel
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/babel-english/british.ldf"
+Language: british 2017/06/06 v3.3r English support from the babel system
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/babel-english/english.ldf"
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/babel.def"
+File: babel.def 2019/07/19 3.33 Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/babel/luababel.def"
+\bbl@attr@locale=\attribute6
+))
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/hyph-utf8/loadhyph/loadhyph-en-gb.tex
+" ASCII Hyphenation patterns for British English
+("C:/Program Files/MiKTeX 2.9/tex/generic/hyph-utf8/patterns/tex/hyph-en-gb.tex
+"))))) ("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty"
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen104
+\Gm@wd@mp=\dimen105
+\Gm@odd@mp=\dimen106
+\Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
+\Gm@dimlist=\toks17
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg"))
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/comment/comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen112
+))
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen113
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count92
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count93
+\leftroot@=\count94
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count95
+\DOTSCASE@=\count96
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen114
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count97
+\c@MaxMatrixCols=\count98
+\dotsspace@=\muskip10
+\c@parentequation=\count99
+\dspbrk@lvl=\count100
+\tag@help=\toks19
+\row@=\count101
+\column@=\count102
+\maxfields@=\count103
+\andhelp@=\toks20
+\eqnshift@=\dimen115
+\alignsep@=\dimen116
+\tagshift@=\dimen117
+\tagwidth@=\dimen118
+\totwidth@=\dimen119
+\lineht@=\dimen120
+\@envbody=\toks21
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: luatex.def on input line 99.
+
+("C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/luatex.def"
+File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
+))
+\Gin@req@height=\dimen121
+\Gin@req@width=\dimen122
+)
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip46
+\enit@outerparindent=\dimen123
+\enit@toks=\toks23
+\enit@inbox=\box29
+\enit@count@id=\count104
+\enitdp@description=\count105
+)
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count106
+\c@@ppsavesec=\count107
+\c@@ppsaveapp=\count108
+)
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen124
+\WF@size=\dimen125
+\c@WF@wrappedlines=\count109
+\WF@box=\box30
+\WF@everypar=\toks24
+Package: wrapfig 2003/01/31  v 3.6
+)
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@caption@flags=\count110
+\c@ContinuedFloat=\count111
+Package caption Info: wrapfig package is loaded.
+)
+(./ProjectContext.aux)
+\openout1 = ProjectContext.aux
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: luatex
+*geometry* verbose mode - [ preamble ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
+* v-part:(T,H,B)=(51.21504pt, 742.61676pt, 51.21504pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=483.69687pt
+* \textheight=742.61676pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-58.05495pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:/Users/hugom/AppData/Roaming/MiKTeX/2.9/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count112
+\scratchdimen=\dimen133
+\scratchbox=\box31
+\nofMPsegments=\count113
+\nofMParguments=\count114
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count115
+\MPscratchDim=\dimen134
+\MPnumerator=\count116
+\makeMPintoPDFobject=\count117
+\everyMPtoPDFconversion=\toks26
+) ("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty"
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX detected.
+))))
+("C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty"
+Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO)
+
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+\pdftexcmds@toks=\toks27
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 43
+8.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG
+,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+<M_Interferometer.PNG, id=1, 441.14813pt x 483.30562pt>
+File: M_Interferometer.PNG Graphic file (type png)
+<use M_Interferometer.PNG>
+Package luatex.def Info: M_Interferometer.PNG  used on input line 32.
+(luatex.def)             Requested size: 237.01411pt x 259.66109pt.
+ [1
+
+{C:/Users/hugom/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./M_Interfero
+meter.PNG>] (./ProjectContext.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 5313 strings out of 494291
+ 100000,184870 words of node,token memory allocated
+ 480 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 13 attribute, 47 gl
+ue_spec, 7 attribute_list, 1 write nodes
+   avail lists: 2:106,3:23,4:3,5:47,6:6,7:222,9:28,10:2,11:20
+ 9303 multiletter control sequences out of 65536+200000
+ 20 fonts using 1137039 bytes
+ 41i,5n,41p,265b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/lm/lmr10.pfb>
+Output written on ProjectContext.pdf (1 page, 100621 bytes).
+
+PDF statistics: 17 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
