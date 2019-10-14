@@ -47,8 +47,9 @@ void loop() {
   if(handshakeComplete){
 
     measurement.photosensor = analogRead(A0);
-    measurement.thermocouple = analogRead(A1);
     measurement.timestamp = millis();
+    measurement.thermocouple = analogRead(A1);
+
     //put the result into a buffer
     if(!realtime){
       buffer[buffer_head++] = measurement;//(output/4)*3 +sensorValue/4;
@@ -68,7 +69,7 @@ void loop() {
     // we can measure half-wavelengths with our setup, if we measure once per 100ms (= 10Hz = much slower than our electronics)
     // that means the maximum expansion we can measure is 3.25e-6 m/s
     // Combining this we get that the maximum change in temprature per time we could measure is 2.16 K/s.
-    // so a delay of 10ms will be more than short enough to get useful data.
+    // so a delay of 1ms will be more than short enough to get useful data.
   } else {
     while (Serial.available()) {
     // get the new byte:
