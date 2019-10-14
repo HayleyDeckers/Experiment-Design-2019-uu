@@ -1,0 +1,260 @@
+PWD C:\Experiment-Design-2019-uu\examination_material\ProjectContext
+INPUT C:\Users\hugom\AppData\Local\MiKTeX\2.9\miktex\data\le\luatex\lualatex.fmt
+INPUT .\ProjectContext.tex
+INPUT .\ProjectContext.tex
+OUTPUT ProjectContext.log
+INPUT C:\Program Files\MiKTeX 2.9\tex\luatex\lualibs\lualibs-basic.lua
+INPUT C:\Program Files\MiKTeX 2.9\tex\luatex\lualibs\lualibs-basic-merged.lua
+INPUT C:\Program Files\MiKTeX 2.9\tex\luatex\lualibs\lualibs-compat.lua
+INPUT C:\Program Files\MiKTeX 2.9\tex\luatex\lualibs\lualibs-extended.lua
+INPUT C:\Program Files\MiKTeX 2.9\tex\luatex\lualibs\lualibs-extended-merged.lua
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo
+INPUT C:\Users\hugom\AppData\Local\MiKTeX\2.9\luatex-cache\generic\fonts\otl\lmroman10-regular.luc
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmr.fd
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\switch.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\ProgramData\MiKTeX\2.9\tex\generic\config\language.dat
+INPUT C:\ProgramData\MiKTeX\2.9\tex\generic\config\language.dat
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\arabi\bblopts.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\british.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\babel\luababel.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\hyph-utf8\loadhyph\loadhyph-en-gb.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\hyph-utf8\loadhyph\loadhyph-en-gb.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\hyph-utf8\patterns\tex\hyph-en-gb.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\hyph-utf8\patterns\tex\hyph-en-gb.tex
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\comment\comment.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\luatex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\luatex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\luatex.def
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\luatex.def
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\appendix\appendix.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\wrapfig\wrapfig.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+INPUT .\ProjectContext.aux
+INPUT .\ProjectContext.aux
+INPUT .\ProjectContext.aux
+INPUT .\ProjectContext.aux
+OUTPUT ProjectContext.aux
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Users\hugom\AppData\Roaming\MiKTeX\2.9\tex\context\base\mkii\supp-pdf.mkii
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmr12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT .\M_Interferometer2.PNG
+INPUT .\M_Interferometer2.PNG
+INPUT .\M_Interferometer2.PNG
+INPUT .\M_Interferometer2.PNG
+INPUT .\M_Interferometer2.PNG
+INPUT .\M_Interferometer2.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmr5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmmi5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmsy5.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Program Files\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+OUTPUT ProjectContext.pdf
+INPUT C:\Users\hugom\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT .\M_Interferometer2.PNG
+INPUT .\Sample_Mirror.PNG
+INPUT .\ProjectContext.aux
+INPUT .\ProjectContext.aux
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmmi10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Program Files\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
