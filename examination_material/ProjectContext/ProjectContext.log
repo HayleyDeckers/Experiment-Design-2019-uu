@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (MiKTeX 2.9.7140 64-bit)  (format=lualatex 2019.10.13)  13 OCT 2019 17:30
+This is LuaTeX, Version 1.10.0 (MiKTeX 2.9.7140 64-bit)  (format=lualatex 2019.10.13)  14 OCT 2019 11:23
  restricted system commands enabled.
  file:line:error style messages enabled.
 **ProjectContext.tex
@@ -54,7 +54,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 Inserting `luaotfload.aux.set_xheight' at position 4 in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' at position 5 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 3.527 seconds
+luaotfload | main : initialization completed in 1.905 seconds
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 ("C:/Program Files/MiKTeX 2.9/tex/latex/base/size10.clo"
@@ -474,32 +474,49 @@ Package grfext Info: Graphics extension search list:
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-<M_Interferometer.PNG, id=1, 441.14813pt x 483.30562pt>
-File: M_Interferometer.PNG Graphic file (type png)
-<use M_Interferometer.PNG>
-Package luatex.def Info: M_Interferometer.PNG  used on input line 32.
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
+
+ []
+
+<M_Interferometer2.PNG, id=1, 441.14813pt x 483.30562pt>
+File: M_Interferometer2.PNG Graphic file (type png)
+<use M_Interferometer2.PNG>
+Package luatex.def Info: M_Interferometer2.PNG  used on input line 43.
 (luatex.def)             Requested size: 237.01411pt x 259.66109pt.
- [1
+<Sample_Mirror.PNG, id=2, 380.92313pt x 423.08063pt>
+File: Sample_Mirror.PNG Graphic file (type png)
+<use Sample_Mirror.PNG>
+Package luatex.def Info: Sample_Mirror.PNG  used on input line 44.
+(luatex.def)             Requested size: 237.01411pt x 263.24335pt.
+[1
 
 {C:/Users/hugom/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./M_Interfero
-meter.PNG>] (./ProjectContext.aux))
+meter2.PNG><./Sample_Mirror.PNG>] (./ProjectContext.aux))
 
 Here is how much of LuaTeX's memory you used:
- 5313 strings out of 494291
+ 5335 strings out of 494291
  100000,184870 words of node,token memory allocated
- 480 words of node memory still in use:
-   6 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 13 attribute, 47 gl
-ue_spec, 7 attribute_list, 1 write nodes
-   avail lists: 2:106,3:23,4:3,5:47,6:6,7:222,9:28,10:2,11:20
- 9303 multiletter control sequences out of 65536+200000
- 20 fonts using 1137039 bytes
- 41i,5n,41p,265b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 486 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 1 dir, 2 glue, 4 kern, 1 glyph, 15 attribute, 47 gl
+ue_spec, 8 attribute_list, 1 write nodes
+   avail lists: 2:154,3:52,4:16,5:163,6:9,7:2827,8:2,9:65,10:12,11:168
+ 9309 multiletter control sequences out of 65536+200000
+ 32 fonts using 1882871 bytes
+ 41i,5n,41p,787b,334s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/lm/lmr10.pfb>
-Output written on ProjectContext.pdf (1 page, 100621 bytes).
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pf
+b>
+Output written on ProjectContext.pdf (1 page, 285479 bytes).
 
-PDF statistics: 17 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 27 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
