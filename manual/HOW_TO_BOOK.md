@@ -6,6 +6,7 @@ A very short how-to would be:
  * run `mdbook --watch -o` from here
  * Add any chapters you wish to add in `src/SUMMARY.md`
  * write!
+ * commit any chapters you've written! (n.b. don't commit empty files!)
 
 All chapters are written in Markdown (like this file).  
 
