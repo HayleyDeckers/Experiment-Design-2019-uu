@@ -1,13 +1,5 @@
 /*
   AnalogReadSerial
-
-  Reads an analog input on pin 0, prints the result to the Serial Monitor.
-  Graphical representation is available using Serial Plotter (Tools > Serial Plotter menu).
-  Attach the center pin of a potentiometer to pin A0, and the outside pins to +5V and ground.
-
-  This example code is in the public domain.
-
-  http://www.arduino.cc/en/Tutorial/AnalogReadSerial
 */
 
 
@@ -19,7 +11,7 @@ bool realtime = false;
 typedef struct DataPacket{
   uint16_t photosensor;
   uint16_t thermocouple;
-  uint32_t timestamp;
+  uint32_t timestamp;//TODO add _in_ms
 }DataPacket_t;
 
 #define BUFFER_SIZE 4096/sizeof(DataPacket)
@@ -32,7 +24,7 @@ void setup() {
   inputString.reserve(200);
   //increase the analogread resolution because we use a Due
   //analogReadResolution(12);
-  // initialize serial communication at 9600 bits per second:
+  // initialize serial communication at 115200 bits per second:
   Serial.begin(115200);
   //Wait on the serial interface to be connected
   while (!Serial) {
@@ -52,7 +44,8 @@ void loop() {
 
     //put the result into a buffer
     if(!realtime){
-      buffer[buffer_head++] = measurement;//(output/4)*3 +sensorValue/4;
+      buffer[buffer_head] = measurement;//(output/4)*3 +sensorValue/4;
+      buffer_head += 1;
       if(buffer_head >= BUFFER_SIZE){
         Serial.write((const char*)buffer, sizeof(measurement)*BUFFER_SIZE);
         buffer_head = 0;
@@ -75,6 +68,7 @@ void loop() {
     // get the new byte:
     char inChar = (char)Serial.read();
 
+    //TODO: check that string doesn't grow beyond 200 bytes
     // add it to the inputString:
     inputString += inChar;
     // if the incoming character is a newline, set a flag so the main loop can
