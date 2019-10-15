@@ -16,8 +16,14 @@ String inputString = "";         // a String to hold incoming data
 bool handshakeComplete = false;  // whether the string is complete
 bool realtime = false;
 
-#define BUFFER_SIZE 2048
-uint16_t buffer[BUFFER_SIZE];
+typedef struct DataPacket{
+  uint16_t photosensor;
+  uint16_t thermocouple;
+  uint32_t timestamp;
+}DataPacket_t;
+
+#define BUFFER_SIZE 4096/sizeof(DataPacket)
+DataPacket_t buffer[BUFFER_SIZE];
 uint16_t buffer_head = 0;
 
 // the setup routine runs once when you press reset:
@@ -35,20 +41,25 @@ void setup() {
 }
 
 uint16_t output = 0;
+DataPacket_t measurement;
 // the loop routine runs over and over again forever:
 void loop() {
   if(handshakeComplete){
-    // read the input on analog pin 0:
-    uint16_t sensorValue = analogRead(A0);
+
+    measurement.photosensor = analogRead(A0);
+    measurement.timestamp = millis();
+    measurement.thermocouple = analogRead(A1);
+
     //put the result into a buffer
     if(!realtime){
-      buffer[buffer_head++] = (output/4)*3 +sensorValue/4;
+      buffer[buffer_head++] = measurement;//(output/4)*3 +sensorValue/4;
       if(buffer_head >= BUFFER_SIZE){
-        Serial.write((const char*)buffer, sizeof(buffer[0])*BUFFER_SIZE);
+        Serial.write((const char*)buffer, sizeof(measurement)*BUFFER_SIZE);
         buffer_head = 0;
       }
     }else{
-      uint16_t write_val[] = {sensorValue, 0xffff};
+      //TODO: send multiple values in realtime mode
+      uint16_t write_val[] = {analogRead(A0), 0xffff};
       Serial.write((const char*)&write_val,4);
     }
     delay(1); // delay in between reads for stability.
@@ -58,7 +69,7 @@ void loop() {
     // we can measure half-wavelengths with our setup, if we measure once per 100ms (= 10Hz = much slower than our electronics)
     // that means the maximum expansion we can measure is 3.25e-6 m/s
     // Combining this we get that the maximum change in temprature per time we could measure is 2.16 K/s.
-    // so a delay of 10ms will be more than short enough to get useful data.
+    // so a delay of 1ms will be more than short enough to get useful data.
   } else {
     while (Serial.available()) {
     // get the new byte:
