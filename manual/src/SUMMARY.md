@@ -4,6 +4,7 @@
 
 ## Theory
 - [What is an interferometer (and why should I care?)](./interferometer.md)
+- [What is a Michelson Interferometer?](./M_interferometer.md)
 - [Measuring thermal expansion with an interferometer](./thermal_expansion.md)
 
 ## Building the Interferometer
