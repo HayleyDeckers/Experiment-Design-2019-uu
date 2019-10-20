@@ -1,8 +1,14 @@
-# do this tuesday 15/10/2019
+# do this monday 21/10/2019
 
-## Formlabs sample clamp print in Ornstein 262
-* take print-plate from the enclosure (handle on the round knob)
-* put print-plate with print in the left acetone bath +- 15 minutes
-* take print from print plate
-* clean print plate with isopropyl
-* cure print for +- 1 hour under UV lamp
+## to do
+- safety chapter
+- host mdBook somewhere. write a link in the onedrive folder & github
+- thanks chapter!
+- calibration of temperature sensor (new chapter)*
+- installation instructions for our script (prerequisite python)
+  - test for windows
+- fix the sample holder section
+- print orientation
+## finish mdbook in general
+- prerequisite Knowledge
+- foreword

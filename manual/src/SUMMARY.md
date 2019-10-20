@@ -1,6 +1,9 @@
-# Summary
+## Summary
 [Foreword](./foreword.md)
+
 [Prerequistie Knowledge](./prereq.md)
+
+[Safety Instructions](./safety.md)
 
 ## Theory
 - [What is an interferometer (and why should I care?)](./interferometer.md)
@@ -13,18 +16,19 @@
   - [Printing the parts](./printing.md)
   - [Building the Base](./building_base.md)
   - [Attaching the slide-ons](./slideons.md)
+  - [Installing the sample holder](./sample.md)
 - [Attaching and aligning the optics](./optics.md)
   - [laser and opposite mirror](./laser_and_opposite_mirror.md)
   - [adding the beamsplitter](./adding_the_bs.md)
   - [calibrate dot to dot](./calibrate_dot_to_dot.md)
   - [expanding the beam](./expand_the_beam.md)
 
-## interfacing with the arduino
+## Interfacing with the arduino
+- [Automating detection](./automation.md)
+- [interfacing with the Arduino](./interface.md)
 - [Measuring thermal expansion](./thermal.md)
-  - [replacing one of the mirrors with a sample holder](./sample.md)
-  - [Automating detection](./automation.md)
-  - [interfacing with the arduion](./interface.md)
+- [Data processing](./data.md)
 
-## appendices with explanations of what went wrong, why we made certain design decisions?
+### Appendices with explanations of what went wrong
 - [Special Thanks](./thanks.md)
 - [CAD files](./CAD.md)
