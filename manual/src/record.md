@@ -60,7 +60,7 @@ ser = serial.Serial(COM, BAUD, timeout = 5)
 #sleep for a little while so that we can actuall connect
 sleep(3)
 #send an identification payload
-ser.write("THERMITE".encode('ascii'))
+ser.write("THERMITE\n".encode('ascii'))
 # and clear the read buffer up-to-and-including acknowledge from the Arduino
 preface = ser.read_until(b'ACKN')
 #now open a binary file to store our data into
