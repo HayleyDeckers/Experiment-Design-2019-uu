@@ -1,6 +1,6 @@
 # Recording data
 
- In order to automatically record data we use an [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue) to record the read-out of a [THERMAL SENSOR](GOOGLE.COM) thermocouple and a [Thorlabs PDA36A-EC](https://www.thorlabs.com/thorproduct.cfm?partnumber=PDA36A-EC) gain detector to respectively measure the sample temperature and the light intensity at the center of our interference pattern. A cheaper Arduino and sensors will probably work just fine too.
+ In order to automatically record data we use an [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue) to record the read-out of a [AD590 temperature trans-ducer](https://www.analog.com/en/products/ad590.html) and a [Thorlabs PDA36A-EC](https://www.thorlabs.com/thorproduct.cfm?partnumber=PDA36A-EC) gain detector to respectively measure the sample temperature and the light intensity at the center of our interference pattern. A cheaper Arduino and sensors will probably work just fine too.
 
 ## Attaching the circuitry
  The sensors should be wired in the following way:
