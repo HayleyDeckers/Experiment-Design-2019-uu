@@ -1,0 +1,17 @@
+[book]
+authors = ["H. Deckers", "K. Maathuis"]
+description = "A how-to guide on how to building a DIY Michelson Interferometer, and how to measure thermal expansion using one."
+language = "en"
+multilingual = false
+src = "src"
+title = "manual"
+
+[build]
+create-missing = true
+
+[output.html]
+curly-quotes = true
+#for equation support, see https://rust-lang-nursery.github.io/mdBook/format/mathjax.html
+mathjax-support = true
+git-repository-url = "https://github.com/HayleyDeckers/Experiment-Design-2019-uu/"
+git-repository-icon = "fa-github"

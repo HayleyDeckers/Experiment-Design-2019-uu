@@ -17,4 +17,4 @@ Beam splitter mount:
 https://www.thorlabs.com/thorproduct.cfm?partnumber=CM1-DCH
 
 Lens mount:
-https://www.thorlabs.com/thorproduct.cfm?partnumber=FMP1/M#ad-image-0
+https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=1433&pn=LMR1/M#9543
