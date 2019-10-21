@@ -1,20 +1,10 @@
 # do this monday 21/10/2019
 
 ## to do
-- safety chapter
-- host mdBook somewhere. write a link in the onedrive folder & github
-
-- thanks chapter!
-
-- calibration of temperature sensor (new chapter)* -> see end of data processing
-
-- print orientation
+- update mdbook link!!!! post link in our onedrive folder
+- calibration of temperature sensor (new chapter)* -> see end of data processin
+- push and merge mdBook branch to master!!!
 
 ## finish mdbook in general
-- prerequisite Knowledge
-- foreword, note to chill the samples
-
-- add circuit diagram
-- add picture of complete circuit
-- test latest arduino code
+- chapter on navigating our github repository??
 - show the math behind the experiment, SEE END OF RECORD
