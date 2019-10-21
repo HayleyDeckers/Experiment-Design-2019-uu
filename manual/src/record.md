@@ -1,16 +1,16 @@
 # Recording data
 
- In order to automatically record data we use an [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue) to record the read-out of a [THERMAL SENSOR](GOOGLE.COM) thermocouple and a [Thorlabs PDA36A-EC](https://www.thorlabs.com/thorproduct.cfm?partnumber=PDA36A-EC) gain detector to respectively measure the sample temperature and the light intensity at the center of our interference pattern. A cheaper Arduino and sensors will probably work just fine too.
+ In order to automatically record data we use an [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue) to record the read-out of a [AD590 temperature trans-ducer](https://www.analog.com/en/products/ad590.html) and a [Thorlabs PDA36A-EC](https://www.thorlabs.com/thorproduct.cfm?partnumber=PDA36A-EC) gain detector to respectively measure the sample temperature and the light intensity at the center of our interference pattern. A cheaper Arduino and sensors will probably work just fine too.
 
 ## Attaching the circuitry
  The sensors should be wired in the following way:
- ![Alt text](../images/circuitry.PNG)
+ ![Alt text](../images/circuitry2.png)
 
  Our ciruit was wired up using a breadboard. If it's your first time working with a breadboard: these are simple board meant for rapid electronics prototyping. You can find a tutorial on them [here](http://wiring.org.co/learning/tutorials/breadboard/)
 
  Be careful when attaching the gain detector to the Arduino, as its maximum output voltage is 10V, more than the Arduino can handle. This is why we use two resistors as a voltage divider before connecting the sensor to the Arduino.
 
-  The thermocouple should be attached to the sample. It has a metal plate on one side, this side should be pressed agains the sample and then taped down with electrical tape. Note that the samples are conductive and therefore care needs to be taken that the wiring does not touch the sample. A little bit of electrical tape underneath the sensor can help.
+  Not that the Thermosensor is polarized, i.e. it has a positive and negative terminal. If using our thermosensor, the white wire is the positive end and the black wire is the ground end. The thermosensor should be attached to the sample. It has a metal plate on one side, this side should be pressed agains the sample and then taped down with electrical tape. Note that the samples are conductive and therefore care needs to be taken that the wiring does not touch the sample. A little bit of electrical tape underneath the sensor can help.
 
 NOTE: the photodetector needs to be attached to its own power supply and that both the power-supply and the photodetector itself have an on-off switch. A green light should light up on the detector if it is turned on. Also make sure to put the photodector in its maximum gain mode (70dB) by turning the switch on top.
 ## Collecting data, Arduino code
