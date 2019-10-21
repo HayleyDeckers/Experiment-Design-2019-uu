@@ -1,6 +1,6 @@
 # Special Thanks
 
-Mozilla Firefox and their development of mdBook which we used for this manually
+Mozilla and their development of mdBook which we used for this manual.
 
 ## Thanks to our UU Contacts
 
@@ -22,4 +22,4 @@ Special thanks to the teams of Rinske & Sam and Amber & Stan, with whom we worke
 
 ## Thanks to our friends
 
-A big thank you to our (lay) friends who offered their time to be a guinea pig in testing if our manual and instructions were remotely clear.
+A big thank you to our friends who offered their time to be a guinea pig in testing if our manual and instructions were remotely clear.
