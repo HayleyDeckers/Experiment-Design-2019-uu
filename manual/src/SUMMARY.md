@@ -22,12 +22,14 @@
   - [adding the beamsplitter](./adding_the_bs.md)
   - [calibrate dot to dot](./calibrate_dot_to_dot.md)
   - [expanding the beam](./expand_the_beam.md)
+  - [Getting a good interference pattern](./interference_pattern.md)
+  - [attaching the gain detector](./detector.md)
 
 ## Interfacing with the arduino
-- [Automating detection](./automation.md)
-- [interfacing with the Arduino](./interface.md)
-- [Measuring thermal expansion](./thermal.md)
-- [Data processing](./data.md)
+- [Performing the experiment](./automation.md)
+  - [Recording data](./record.md)
+  - [Measuring thermal expansion](./thermal.md)
+  - [Data processing](./data.md)
 
 ### Appendices with explanations of what went wrong
 - [Special Thanks](./thanks.md)

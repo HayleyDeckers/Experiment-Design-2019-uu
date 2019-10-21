@@ -6,12 +6,11 @@
  The sensors should be wired in the following way:
  [INSERT IMAGE OF CIRCUIT]
 
+ Our ciruit was wired up using a breadboard. If it's your first time working with a breadboard: these are simple board meant for rapid electronics prototyping. You can find a tutorial on them [here](http://wiring.org.co/learning/tutorials/breadboard/)
+
  Be careful when attaching the gain detector to the Arduino, as its maximum output voltage is 10V, more than the Arduino can handle. This is why we use two resistors as a voltage divider before connecting the sensor to the Arduino.
 
   The thermocouple should be attached to the sample. It has a metal plate on one side, this side should be pressed agains the sample and then taped down with electrical tape. Note that the samples are conductive and therefore care needs to be taken that the wiring does not touch the sample. A little bit of electrical tape underneath the sensor can help.
-
-  When wired up correctly the physical circuit should look something like this:
-  [INSERT PICTURE OF CIRCUIT]
 
 NOTE: the photodetector needs to be attached to its own power supply and that both the power-supply and the photodetector itself have an on-off switch. A green light should light up on the detector if it is turned on. Also make sure to put the photodector in its maximum gain mode (70dB) by turning the switch on top.
 ## collecting data, Arduino code
