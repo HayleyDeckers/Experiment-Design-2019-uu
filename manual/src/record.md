@@ -4,7 +4,7 @@
 
 ## Attaching the circuitry
  The sensors should be wired in the following way:
- ![Alt text](../images/circuitry.PNG)
+ ![Alt text](../images/circuitry2.png)
 
  Our ciruit was wired up using a breadboard. If it's your first time working with a breadboard: these are simple board meant for rapid electronics prototyping. You can find a tutorial on them [here](http://wiring.org.co/learning/tutorials/breadboard/)
 
