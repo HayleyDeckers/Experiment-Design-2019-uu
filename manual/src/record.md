@@ -2,9 +2,9 @@
 
  In order to automatically record data we use an [Arduino Due](https://www.arduino.cc/en/Guide/ArduinoDue) to record the read-out of a [THERMAL SENSOR](GOOGLE.COM) thermocouple and a [Thorlabs PDA36A-EC](https://www.thorlabs.com/thorproduct.cfm?partnumber=PDA36A-EC) gain detector to respectively measure the sample temperature and the light intensity at the center of our interference pattern. A cheaper Arduino and sensors will probably work just fine too.
 
-## attaching the circuitry
+## Attaching the circuitry
  The sensors should be wired in the following way:
- [INSERT IMAGE OF CIRCUIT]
+ ![Alt text](../images/circuitry.PNG)
 
  Our ciruit was wired up using a breadboard. If it's your first time working with a breadboard: these are simple board meant for rapid electronics prototyping. You can find a tutorial on them [here](http://wiring.org.co/learning/tutorials/breadboard/)
 
@@ -13,7 +13,7 @@
   The thermocouple should be attached to the sample. It has a metal plate on one side, this side should be pressed agains the sample and then taped down with electrical tape. Note that the samples are conductive and therefore care needs to be taken that the wiring does not touch the sample. A little bit of electrical tape underneath the sensor can help.
 
 NOTE: the photodetector needs to be attached to its own power supply and that both the power-supply and the photodetector itself have an on-off switch. A green light should light up on the detector if it is turned on. Also make sure to put the photodector in its maximum gain mode (70dB) by turning the switch on top.
-## collecting data, Arduino code
+## Collecting data, Arduino code
 
 Our latest code for driving the Arduino can be found on [our Github](https://github.com/HayleyDeckers/Experiment-Design-2019-uu/blob/master/src/AnalogReadSerial.ino). It is a relatively simple code, reading the values of the analog input `A0` and `A1` and a timestamp on each iteration. It contains some boilerplate code in the `setup` routine but the main lifting is done in the `loop` routine:
 

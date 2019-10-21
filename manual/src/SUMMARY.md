@@ -1,7 +1,7 @@
 ## Summary
 [Foreword](./foreword.md)
 
-[Prerequistie Knowledge](./prereq.md)
+[Prerequisite Knowledge](./prereq.md)
 
 [Safety Instructions](./safety.md)
 
@@ -15,15 +15,15 @@
 - [What do you need to build our interferometer](./needed_materials.md)
   - [Printing the parts](./printing.md)
   - [Building the Base](./building_base.md)
-  - [Attaching the slide-ons](./slideons.md)
+  - [Attaching the slide-on parts](./slideons.md)
   - [Installing the sample holder](./sample.md)
 - [Attaching and aligning the optics](./optics.md)
-  - [laser and opposite mirror](./laser_and_opposite_mirror.md)
-  - [adding the beamsplitter](./adding_the_bs.md)
-  - [calibrate dot to dot](./calibrate_dot_to_dot.md)
-  - [expanding the beam](./expand_the_beam.md)
+  - [Laser and opposite mirror](./laser_and_opposite_mirror.md)
+  - [Adding the beam splitter](./adding_the_bs.md)
+  - [Calibrating dot to dot](./calibrate_dot_to_dot.md)
+  - [Expanding the beam](./expand_the_beam.md)
   - [Getting a good interference pattern](./interference_pattern.md)
-  - [attaching the gain detector](./detector.md)
+  - [Attaching the gain detector](./detector.md)
 
 ## Interfacing with the arduino
 - [Performing the experiment](./automation.md)
