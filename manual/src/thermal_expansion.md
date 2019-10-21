@@ -1,5 +1,10 @@
 # Measuring thermal expansion with an interferometer
 
+An object will expand or contract linearly when its temperature changes according to [the formula](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/thexp.html#c2)
+\\[ \frac{\Delta L}{L_{0}} = \alpha \Delta T \\]
+Where \\( L_{0} \\) is the length of the object at temperature \\(T_{0}\\) and \\(\alpha\\) is its coefficient of linear expansion. It it is this \\(\alpha\\) we wish to measure. \\(L_0\\) we can measure directly with a pair of calipers, \\(\Delta T\\) we can measure with a temperature sensor attached to the object,  
+and \\(\Delta L\\) we can measure based upon the interference pattern we observe. As the sample expands or contracts, we should see a shift in the interference pattern due to a changing path-length. Everytime it cycles though a dark-center/bright-center/dark-center cycle this implies the sample has expanded or contracted by one wavelength, or \\(\Delta L = 635\\)nm.
+
 The phenomenon of cycling through the dark and light interference patterns is exactly what we will try to use in our experiment to measure changes in pathlength.\
 The idea is simple:
 1.	Fix all the optical elements except one mirror.
