@@ -5,4 +5,11 @@ examination_material/ProjectContext/*.fdb_latexmk
 examination_material/ProjectContext/*.fls
 examination_material/ProjectContext/*.log
 examination_material/ProjectContext/*.gz
+
+poster/*.aux
+poster/*.fdb_latexmk
+poster/*.fls
+poster/*.log
+poster/*.gz
+
 manual/images/*.svg

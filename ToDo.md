@@ -20,4 +20,4 @@
 * fill in the evaluation form for the course
 
 ### after the cohort meeting
-* share your self-evluation with your support network (??)
+* share your self-evaluation with your support network (??)
