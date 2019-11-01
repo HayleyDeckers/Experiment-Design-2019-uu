@@ -1,12 +1,14 @@
-\documentclass[64pt,a0paper]{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage{better_poster}
+\pdfpkreolution=2400
+%\pdfimageresolution=2400
 
 
 % ---- fill in from here
 
 % authors
-\title{A Latex Implementation of Mike Morrison's Better Poster}
-\author{Lana Sinapayen, Someone Else}
+\title{TERMITE}
+\author{H. Deckers, H. Maathuis}
 
 % type of poster: [exp]erimental results, [methods], [theory]
 % Disclaimer: the original classification had "study" and "intervention" as separate categories. I group them under experimental results.
@@ -15,66 +17,61 @@
 \begin{document}
 
 % main point of your study
-\makefinding{
-\textbf{Main finding} goes here, translated into \textbf{plain English}. \textbf{Emphasize} the important words.
-}
-
-
-% \makemain{
-% }{
-
-% }
-
+\makefinding{Designing and building your own physics experiment from scratch}
 
 % the main text of your poster goes here
 \makemain{
     % you can have 1 or 2 columns
     \raggedcolumns
     \begin{multicols}{2}
-        \section{Intro}
+        \section{Goals}
         \begin{itemize}
         \setlength\itemsep{0.1em}
-            \item Just give some context
-            \item No need to cite papers
-            \item because people can download your paper
+            \item a
+            \item b
+            \item c
+            \item d
         \end{itemize}
 
-        \section{Methods}
+        \section{Design}
         \begin{itemize}
         \setlength\itemsep{0.1em}
-            \item N = 30
-            \item Collected this
-            \item Tested with X statistical test
+            \item a
+            \item b
+            \item c
+            \item d
         \end{itemize}
+
+        \includegraphics[width=0.9\linewidth]{./images/sample_mirror.png}
 
     % this determines where your columns will be separated
     \columnbreak
 
-        \section{Results}
+        \includegraphics[width=1.1\linewidth]{./images/setup.png}
 
-        \includegraphics[width=\linewidth]{icons8-ecg-96.png}
+        \section{Results}
         \begin{itemize}
         \setlength\itemsep{0.1em}
-            \item Your
-            \item Talking
-            \item Points
+            \item a
+            \item b
+            \item c
+            \item d
+            \item e
+            \item f
         \end{itemize}
 
     \end{multicols}
 }
 % If you have extra figures or data to show
 \makeextracolumn{
-    Add your things here
 
-    \includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}\includegraphics[width=0.5\linewidth]{icons8-stocks-80.png}
+    \includegraphics[width=0.9\linewidth]{./images/design.png}
+    \linebreak
+    \includegraphics[width=0.9\linewidth]{./images/print.png}
+    \linebreak
+    \includegraphics[width=0.9\linewidth]{./images/build.png}
 
-    \begin{itemize}
-    \setlength\itemsep{0.1em}
-        \item Stuff you don't want to forget
-        \item But is not essential
-    \end{itemize}
 }
-
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
 % default: barcode on the left
