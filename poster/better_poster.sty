@@ -33,22 +33,22 @@
 % makes title
 \makeatletter
 \def\@maketitle{
-  \vspace{0.5cm}
+  \vspace{0.1cm}
     {\Huge \bf
         \begin{flushleft}
             \@title
         \end{flushleft}
-    }\vspace{-0.5em}
+    }\vspace{-0.1em}
     { \@author}
 }
 \makeatother
 
 % makes header
 \newcommand{\makefinding}[1]{
-    \vspace*{-2.5cm} % get rid of random white space
+    \vspace*{-2cm} % get rid of random white space
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[t][0.3\paperheight][c]{\paperwidth}{%
+        \parbox[t][0.2\paperheight][c]{\paperwidth}{%
           \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
           \begin{minipage}{\textwidth}
           \textcolor{white}
@@ -65,22 +65,22 @@
 
 % makes footer
 \newcommand{\makefooter}[2]{
-    \vspace*{\fill}
+    \vspace{\fill}
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[c][0.14\paperheight][c]{\paperwidth}{%
+        \parbox[c][0.12\paperheight][c]{\paperwidth}{%
           \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
-          \begin{minipage}[c][0.2\paperheight][c]{0.15\textwidth}
+          \begin{minipage}[c][0.16\paperheight][c]{0.15\textwidth}
                 \includegraphics[height=0.11\paperheight, left]{#2}
           \end{minipage}
-          \begin{minipage}[c][0.2\paperheight][c]{0.3\textwidth}
+          \begin{minipage}[c][0.16\paperheight][c]{0.3\textwidth}
               \textcolor{white}
                 {\large{
                    $\leftarrow$ Check out our GitHub }
                 }
           \end{minipage}
           \hfill
-          \begin{minipage}[c][0.2\paperheight][c]{0.3\textwidth}
+          \begin{minipage}[c][0.16\paperheight][c]{0.3\textwidth}
             \begin{flushright}
               \textcolor{white}
                 {\large{
@@ -88,48 +88,18 @@
                 }
               \end{flushright}
           \end{minipage}
-          \begin{minipage}[c][0.2\paperheight][c]{0.2\textwidth}
+          \begin{minipage}[c][0.16\paperheight][c]{0.2\textwidth}
             \includegraphics[height=0.11\paperheight, left]{#1}
           \end{minipage}
         }%
       }%
     }\par\medskip
 }
-
-% alternative footer
-\newcommand{\makealtfooter}[2]{
-    \vspace*{\fill}
-    \noindent\makebox[\linewidth][c]{%
-      \colorbox{\postertype}{%
-        \parbox[c][0.14\paperheight][c]{\paperwidth}{%
-          \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
-          \begin{minipage}[c][0.14\paperheight][c]{0.3\textwidth}
-            % your logo here
-
-            \includegraphics[height=0.11\paperheight, left]{#1}
-            \end{minipage}
-          \hfill
-          \begin{minipage}[c][0.14\paperheight][c]{0.4\textwidth}
-            \begin{flushright}
-                \textcolor{white}
-                {\large{
-                    Checkout our GitHub $\rightarrow$}
-                }
-                \end{flushright}
-          \end{minipage}
-          \begin{minipage}[c][0.14\paperheight][c]{0.2\textwidth}
-                \includegraphics[height=0.11\paperheight, left]{#2}
-          \end{minipage}
-        }%
-      }%
-    }\par\medskip
-}
-
 
 % makes main column
 \newcommand{\makemain}[1]{
     \noindent
-    \parbox[t][0.6\paperheight][t]{0.65\linewidth}{%
+    \parbox[t][0.7\paperheight][t]{0.65\linewidth}{%
 
         {\let\newpage\relax\maketitle}
         #1
@@ -143,7 +113,7 @@
     \draw[\postertype, very thick] (0,0.01\paperheight) -- (0,-0.6\paperheight);
     \end{tikzpicture}
     \hfill
-    \parbox[t][0.6\paperheight][t]{0.3\linewidth}{
+    \parbox[t][0.66\paperheight][t]{0.3\linewidth}{
         \section*{How It's Made}
 
         {\scriptsize
