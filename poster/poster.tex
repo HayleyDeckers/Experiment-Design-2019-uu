@@ -1,4 +1,4 @@
-\documentclass[12pt,a4paper]{article}
+\documentclass[11pt,a4paper]{article}
 \usepackage{better_poster}
 \pdfpkresolution=2400
 %\pdfimageresolution=2400
@@ -24,23 +24,21 @@
     % you can have 1 or 2 columns
     \raggedcolumns
     \begin{multicols}{2}
-        \section{Goals}
-        \begin{itemize}
-        \setlength\itemsep{0.1em}
-            \item a
-            \item b
-            \item c
-            \item d
-        \end{itemize}
+      \section{Goals}
+      \begin{itemize}
+      \setlength\itemsep{0.1em}
+          \item Design and build a Michelson interferometer using readily available lab equipment.
+          \item Use this design to measure\\ thermal expansion of samples.
+      \end{itemize}
 
         \section{Design}
         \begin{itemize}
         \setlength\itemsep{0.1em}
-            \item Create Michelson inteferometer using 3d printed parts and readilly available optics
-            \item Attach one of the mirrors to a sample holder, as it expands or contracts the interference pattern will phase shift.
-            \item read out the temperature and shift as a function of time using a photosensor and Arduino.
+            \item Attach one of the mirrors to a sample holder, as it expands or shrinks the pathlength will change and phase-shift the\\ interference pattern.
+            \item Measure the temperature and  interference pattern shift as a function of time using a photosensor, thermometer and \\Arduino.
         \end{itemize}
 
+        
         \includegraphics[width=0.9\linewidth]{./images/sample_mirror.png}
 
     % this determines where your columns will be separated
@@ -51,27 +49,36 @@
         \section{Results}
         \begin{itemize}
         \setlength\itemsep{0.1em}
-            \item 3D printed interferometer works great!
-            \item sample needs to be perfectly perpendicular to the laser beam, or the interference patter will shift down or up as its temperature changes.
-            \item Measuring expansion proved difficult due to these alignment issues and time constraints. Project should still work, with more time and a different sensor!
+            \item 3D printed interferometer works great, both with and without the sample we saw clear interference patterns!
+            \item The sample must be perfectly perpendicular to the laser beam, or the interference pattern will shift out of focus as its temperature changes.
+        \end{itemize}
+
+        \section{Conclusion}
+        \begin{itemize}
+          \setlength\itemsep{0.1em}
+            \item Measuring thermal expansion proved difficult due to the alignment issues.
+            \item More rigidity and a different light sensor might solve the issues if the project is continued.
+
         \end{itemize}
 
     \end{multicols}
 }
 % If you have extra figures or data to show
 \makeextracolumn{
-
-    \includegraphics[draft,width=0.9\linewidth]{./images/design.png}
-    \linebreak
-    \includegraphics[draft,width=0.9\linewidth]{./images/print.png}
-    \linebreak
-    \includegraphics[draft,width=0.9\linewidth]{./images/build.png}
+  \includegraphics[width=1\linewidth]{./images/design.png}
+  Design the experiment in a CAD program!\\
+  \includegraphics[width=1\linewidth]{./images/print.png}
+  Print out the 3D modelled parts,
+  source the other parts you need.\\
+  \includegraphics[width=1\linewidth]{./images/build.png}
+  Build the setup and try to perform the experiment.\\
+  \includegraphics[width=1\linewidth]{./images/experiment.png}
 
 }
 % footer
 % generate qr code from https://www.qr-code-generator.com/ and replace qr_code.png
 % default: barcode on the left
-\makefooter{images/uni_logo.png}{images/qr-code.png}
+\makefooter{images/uu_logo.png}{images/qr-code.png}
 
 % replace with this like for barcode on the right
 %\makealtfooter{images/uni_logo.png}{images/qr-code.png}

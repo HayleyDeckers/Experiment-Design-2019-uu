@@ -69,10 +69,10 @@
     \vspace{\fill}
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[c][0.13\paperheight][c]{\paperwidth}{%
+        \parbox[c][0.16\paperheight][c]{\paperwidth}{%
           \hspace*{\dimexpr\hoffset+\oddsidemargin+0.5in\relax}%
-          \vspace*{0.5cm}%
-          \begin{minipage}[r][0.18\paperheight][c]{0.35\textwidth}
+          \vspace*{0.7cm}%
+          \begin{minipage}[r][0.2\paperheight][c]{0.35\textwidth}
             \centering
                 \includegraphics[height=0.07\paperheight]{#2}\\
                 \textcolor{white}
@@ -85,7 +85,7 @@
             \begin{flushright}
               \textcolor{white}
                 {\large{
-                   Want to 3d-print your own experiment? ??ask Blab?? -> what do with this pic}
+                   Do you want to use a 3D printer to assist your research efforts? Contact dr. G.A. Blab who coordinates the FDM 3D printer avialble to students and staff.}
                 }
               \end{flushright}
           \end{minipage}
@@ -95,12 +95,12 @@
         }%
       }%
     }%
-    \par\vspace*{-1cm}%
+    \par\vspace*{-0.8cm}%
     \noindent\makebox[\paperwidth][t]{
     \hspace*{-2.2cm}
     \colorbox{Black}{%
-    \parbox[c][0.02\paperheight][t]{1.1\paperwidth}{%
-    \vspace*{0.25\baselineskip}
+    \parbox[c][0.03\paperheight][t]{1.1\paperwidth}{%
+    \vspace*{0.3\baselineskip}
     \centering
       \textcolor{white}{Special thanks to: Dr. G.A. Blab, Dr. D.F. Bouchet, R.H.S. Borkus, Drs. D. Killian, P. Koopman}\vfill
     }}%
@@ -111,7 +111,7 @@
 % makes main column
 \newcommand{\makemain}[1]{
     \noindent
-    \parbox[t][0.7\paperheight][t]{0.65\linewidth}{%
+    \parbox[t][0.68\paperheight][t]{0.65\linewidth}{%
 
         {\let\newpage\relax\maketitle}
         #1
@@ -122,10 +122,10 @@
 % makes additional figures column
 \newcommand{\makeextracolumn}[1]{
     \hfill\begin{tikzpicture}[overlay]
-    \draw[\postertype, very thick] (0,0.01\paperheight) -- (0,-0.6\paperheight);
+    \draw[\postertype, very thick] (0,0.01\paperheight) -- (0,-0.7\paperheight);
     \end{tikzpicture}
     \hfill
-    \parbox[t][0.66\paperheight][t]{0.3\linewidth}{
+    \parbox[t][0.68\paperheight][t]{0.3\linewidth}{
         \section*{How It's Made}
 
         {\scriptsize
