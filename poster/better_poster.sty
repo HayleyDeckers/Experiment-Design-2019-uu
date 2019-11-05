@@ -48,7 +48,7 @@
     \vspace*{-2cm} % get rid of random white space
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[t][0.2\paperheight][c]{\paperwidth}{%
+        \parbox[t][0.19\paperheight][c]{\paperwidth}{%
           \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
           \begin{minipage}{\textwidth}
           \textcolor{white}
@@ -65,18 +65,19 @@
 
 % makes footer
 \newcommand{\makefooter}[2]{
+\fboxsep0pt
     \vspace{\fill}
     \noindent\makebox[\linewidth][c]{%
       \colorbox{\postertype}{%
-        \parbox[c][0.12\paperheight][c]{\paperwidth}{%
-          \hspace*{\dimexpr\hoffset+\oddsidemargin+1in\relax}%
-          \begin{minipage}[c][0.16\paperheight][c]{0.15\textwidth}
-                \includegraphics[height=0.11\paperheight, left]{#2}
-          \end{minipage}
-          \begin{minipage}[c][0.16\paperheight][c]{0.3\textwidth}
-              \textcolor{white}
+        \parbox[c][0.13\paperheight][c]{\paperwidth}{%
+          \hspace*{\dimexpr\hoffset+\oddsidemargin+0.5in\relax}%
+          \vspace*{0.5cm}%
+          \begin{minipage}[r][0.18\paperheight][c]{0.35\textwidth}
+            \centering
+                \includegraphics[height=0.07\paperheight]{#2}\\
+                \textcolor{white}
                 {\large{
-                   $\leftarrow$ Check out our GitHub }
+                   Check out our GitHub!\\}
                 }
           \end{minipage}
           \hfill
@@ -84,7 +85,7 @@
             \begin{flushright}
               \textcolor{white}
                 {\large{
-                   Want to build your own experiment?}
+                   Want to 3d-print your own experiment? ??ask Blab?? -> what do with this pic}
                 }
               \end{flushright}
           \end{minipage}
@@ -93,8 +94,19 @@
           \end{minipage}
         }%
       }%
-    }\par\medskip
-}
+    }%
+    \par\vspace*{-1cm}%
+    \noindent\makebox[\paperwidth][t]{
+    \hspace*{-2.2cm}
+    \colorbox{Black}{%
+    \parbox[c][0.02\paperheight][t]{1.1\paperwidth}{%
+    \vspace*{0.25\baselineskip}
+    \centering
+      \textcolor{white}{Special thanks to: Dr. G.A. Blab, Dr. D.F. Bouchet, R.H.S. Borkus, Drs. D. Killian, P. Koopman}\vfill
+    }}%
+    \par\medskip
+    }%
+    }
 
 % makes main column
 \newcommand{\makemain}[1]{
